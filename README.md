@@ -5,13 +5,6 @@ This repository contains the CENTURIA dataset, the evaluation pipeline, and fine
 It is part of the [LEGION project](https://legion-hsa-2-0.github.io/).
 
 ## 📄 Abstract
-Pottery is a primary source for reconstructing the chronological and economic dimensions of past societies. 
-Archaeologists often document ceramic finds through technical drawings and handwritten metadata. 
-This metadata is critical for dating, provenance attribution, and cross-site comparison, but remains inaccessible to computational analysis, requiring manual transcription of every record. 
-We investigate whether state-of-the-art document analysis models can address this task, and introduce CENTURIA, a dataset of 507 pottery records from the Roman site of Carnuntum, providing transcriptions, bounding boxes, and structured field-level labels across seven metadata categories. 
-Benchmarking five OCR models reveals a substantial domain gap: zero-shot transcription error reaches 15-32% SpACER-M, far exceeding rates on printed archival documents, with domain-specific fields recovered in fewer than 3% of cases. 
-LoRA fine-tuning on just 57 samples, reflecting a realistic archival annotation budget, closes this gap, reducing transcription error to below 1.5%  and recovering overall field-level accuracy above 87%. 
-Our results show that a small expert-validated fine-tuning set suffices to convert handwritten pottery documentation into structured, searchable metadata ready for archaeological databases. 
 
 ![Workflow](assets/workflow.png)
 <p align="center">
@@ -24,6 +17,14 @@ Our results show that a small expert-validated fine-tuning set suffices to conve
     <b>E:</b> Structured machine-readable metadata (KIE)
   </em>
 </p>
+
+Pottery is a primary source for reconstructing the chronological and economic dimensions of past societies. 
+Archaeologists often document ceramic finds through technical drawings and handwritten metadata. 
+This metadata is critical for dating, provenance attribution, and cross-site comparison, but remains inaccessible to computational analysis, requiring manual transcription of every record. 
+We investigate whether state-of-the-art document analysis models can address this task, and introduce CENTURIA, a dataset of 507 pottery records from the Roman site of Carnuntum, providing transcriptions, bounding boxes, and structured field-level labels across seven metadata categories. 
+Benchmarking five OCR models reveals a substantial domain gap: zero-shot transcription error reaches 15-32% SpACER-M, far exceeding rates on printed archival documents, with domain-specific fields recovered in fewer than 3% of cases. 
+LoRA fine-tuning on just 57 samples, reflecting a realistic archival annotation budget, closes this gap, reducing transcription error to below 1.5%  and recovering overall field-level accuracy above 87%. 
+Our results show that a small expert-validated fine-tuning set suffices to convert handwritten pottery documentation into structured, searchable metadata ready for archaeological databases. 
 
 ## 📂 Dataset
 
