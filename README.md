@@ -4,6 +4,8 @@ A benchmark for handwritten text recognition and structured field extraction fro
 This repository contains the CENTURIA dataset, the evaluation pipeline, and fine-tuned checkpoints for transcribing and extracting structured metadata from the Carnuntum pottery archive.
 It is part of the [LEGION project](https://legion-hsa-2-0.github.io/).
 
+The preprint is available on [arxiv](https://doi.org/10.48550/arXiv.2608.30616).
+
 ## 📄 Abstract
 
 ![Workflow](assets/workflow.png)
@@ -45,13 +47,18 @@ Models without a fine-tuned checkpoint are evaluated zero-shot. Fine-tuning uses
 If you find our work useful, we'd appreciate it if you cite us:
 
 ```bibtex
-@inproceedings{naghavi2026centuria,
-  title = {OCR-Based Field Extraction for Archaeological Pottery Metadata: The CENTURIA Dataset},
-  author = {Naghavi, Gissu Valentina and Hagmann, Dominik and Kampel, Martin and Ballester, Irene},
-  year = {2026},
-  doi = {}
+@misc{naghavi2026centuria,
+      title={{OCR}-Based Field Extraction for Archaeological Pottery Metadata: The {CENTURIA} Dataset}, 
+      author={Gissu Valentina Naghavi and Dominik Hagmann and Martin Kampel and Irene Ballester},
+      year={2026},
+      eprint={2608.30616},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2608.30616}
 }
 ```
+
+
 
 ## 🙏 Acknowledgements
 This work was carried out within the project LEGION (machine **LE**arnin**G**-enabled **I**dentification of archaeological **O**bjects in the middle da**N**ube river basin). 
