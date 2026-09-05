@@ -40,8 +40,24 @@ Our results show that a small expert-validated fine-tuning set suffices to conve
 | LightOnOCR | 1B | [lightonai/LightOnOCR-2-1B](https://huggingface.co/lightonai/LightOnOCR-2-1B) | link |
 
 Models without a fine-tuned checkpoint are evaluated zero-shot. Fine-tuning uses LoRA (57 samples, 2 epochs).
+## 🎛️ Domain adaptation
+None of the models has seen archaeological terminology during pre-training, which limits zero-shot transcription quality. Three strategies are compared:
+- **Zero-shot instruction prompting:** It replaces the generic transcription instruction with a domain prompt listing site abbreviations, vessel forms, ware types, measurement conventions and known publication references. No labelled date is required.
+- **Few-shot prompting:** It adds annotated image-transcription pairs (1, 5 and 8 examples) to the input, demonstrating the expected output format without updating weights.
+- **LoRA fine-tuning:** It adapts the model weights on 57-sample training split via low-rank decomposition applied to all linear projection layers. This dominates both prompting strategies, reducing the transcription error below 1.5%.
+  
+## 📊 Evaluation metrics
+**Transcription:**
+- **SpACER (micro):** [Spatially Aware Character Error Rate](https://github.com/JonnoB/SpACER) compares predicted and ground truth characters within each bounding box, matched by overlap. Used for models that output box coordinates.
+- **SpACER (macro):** The same quantity with character counts but across the whole page instead of per box. Therefore, it also applies to models that return text without coordinates.
+- **BoW-F1:** It checks how many words of the ground truth appear in the prediction, regardless of where on the page they occur.
 
-## 📊 Evaluation
+**Field-level transcription:**
+- **EMR:** Exact Match Rate checks whether a field value appears exactly as written in the transcription. One wrong character counts as a miss.
+- **ANLS:** Average Normalised Levenshtein Similarity measures how close the transcribed value is to the ground truth. Nearly correct readings still receive partial credit, while readings differing by more than half their characters score zero (tau=0.5).
+
+**Field extraction:**
+- **Field Accuracy:** It compares the extracted values against the ground truth after normalising case, spacing and delimiters. Reported per field and overall.
 
 ## 📝 Citation
 If you find our work useful, we'd appreciate it if you cite us:
