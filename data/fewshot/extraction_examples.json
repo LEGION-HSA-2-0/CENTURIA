@@ -1,0 +1,238 @@
+[
+  {
+    "text": "Carn.\nKi 1/76\nDeckel\nPetznek Taf. 20/1788\nRD = 12 cm\nf/red GK",
+    "fields": {
+      "excavation": {
+        "provenance": "Carn.",
+        "project": null,
+        "fn": null,
+        "se": null,
+        "fl": null,
+        "quadrant": null,
+        "kiste": "Ki 1/76"
+      },
+      "pottery_form": "Deckel",
+      "artifact_category": "f/red GK",
+      "publication_type": "Petznek Taf. 20/1788",
+      "surface_treatment": null,
+      "measurement": {
+        "rd": "12",
+        "bd": null,
+        "h": null,
+        "r_a": null,
+        "r_i": null,
+        "r_m": null
+      },
+      "others": []
+    }
+  },
+  {
+    "text": "Carn.\nKi 63/76\nSchüssel\nGassner 4/7\nf/ox GK\nRD = 16 cm\nÜz",
+    "fields": {
+      "excavation": {
+        "provenance": "Carn.",
+        "project": null,
+        "fn": null,
+        "se": null,
+        "fl": null,
+        "quadrant": null,
+        "kiste": "Ki 63/76"
+      },
+      "pottery_form": "Schüssel",
+      "artifact_category": "f/ox GK",
+      "publication_type": "Gassner 4/7",
+      "surface_treatment": "Üz",
+      "measurement": {
+        "rd": "16",
+        "bd": null,
+        "h": null,
+        "r_a": null,
+        "r_i": null,
+        "r_m": null
+      },
+      "others": []
+    }
+  },
+  {
+    "text": "Carn.\nKi 60/76\nKrug\n(Adler-Wölfl 2010 Taf. 98/\ng/red GK\nRD = 12 cm\nKE 2852)\nSPA\nHorvat 2011 Abb. 8/5",
+    "fields": {
+      "excavation": {
+        "provenance": "Carn.",
+        "project": null,
+        "fn": null,
+        "se": null,
+        "fl": null,
+        "quadrant": null,
+        "kiste": "Ki 60/76"
+      },
+      "pottery_form": "Krug",
+      "artifact_category": "g/red GK",
+      "publication_type": [
+        "Adler-Wölfl 2010 Taf. 98/KE 2852",
+        "Horvat 2011 Abb. 8/5"
+      ],
+      "surface_treatment": null,
+      "measurement": {
+        "rd": "12",
+        "bd": null,
+        "h": null,
+        "r_a": null,
+        "r_i": null,
+        "r_m": null
+      },
+      "others": [
+        "SPA"
+      ]
+    }
+  },
+  {
+    "text": "CAR - GS - 2012\nE 16/4\nM 1:1\nGez MBC\nH 2,1 cm\nR 3,5 cm\n% 22\n16.12.2012\noxid. GK\nBoden",
+    "fields": {
+      "excavation": {
+        "provenance": "CAR",
+        "project": "GS - 2012",
+        "fn": "E 16/4",
+        "se": null,
+        "fl": null,
+        "quadrant": null,
+        "kiste": null
+      },
+      "pottery_form": null,
+      "artifact_category": "oxid. GK",
+      "publication_type": null,
+      "surface_treatment": null,
+      "measurement": {
+        "rd": null,
+        "bd": null,
+        "h": "2,1",
+        "r_a": [
+          "3,5",
+          "22%"
+        ],
+        "r_i": null,
+        "r_m": null
+      },
+      "others": [
+        "M 1:1",
+        "Gez MBC",
+        "16.12.2012",
+        "Boden"
+      ]
+    }
+  },
+  {
+    "text": "Car. GS 2012\nC 17/5\n2.1.2012 M 1:1\nik\nGK ox\nR = 8 cm 5 %\nH = 1 cm\nRäucherschale\nGassner 4/20",
+    "fields": {
+      "excavation": {
+        "provenance": "Car.",
+        "project": "GS 2012",
+        "fn": "C 17/5",
+        "se": null,
+        "fl": null,
+        "quadrant": null,
+        "kiste": null
+      },
+      "pottery_form": "Räucherschale",
+      "artifact_category": "GK ox",
+      "publication_type": "Gassner 4/20",
+      "surface_treatment": null,
+      "measurement": {
+        "rd": null,
+        "bd": null,
+        "h": "1",
+        "r_a": [
+          "8",
+          "5%"
+        ],
+        "r_i": null,
+        "r_m": null
+      },
+      "others": [
+        "2.1.2012",
+        "M 1:1",
+        "ik"
+      ]
+    }
+  },
+  {
+    "text": "Carn. Survey GB 2017\nQ 42 - 06\nSchüssel Adler-Wölfl Sü 7/1\ng/red PGW\nRD = 18 cm",
+    "fields": {
+      "excavation": {
+        "provenance": "Carn.",
+        "project": "Survey GB 2017",
+        "fn": null,
+        "se": null,
+        "fl": null,
+        "quadrant": "Q 42 - 06",
+        "kiste": null
+      },
+      "pottery_form": "Schüssel",
+      "artifact_category": "g/red PGW",
+      "publication_type": "Adler-Wölfl Sü 7/1",
+      "surface_treatment": null,
+      "measurement": {
+        "rd": "18",
+        "bd": null,
+        "h": null,
+        "r_a": null,
+        "r_i": null,
+        "r_m": null
+      },
+      "others": []
+    }
+  },
+  {
+    "text": "Carn. EVN GB 2017\nFN 220, SE 142, FL 1\nBecher Petznek 1999 Taf. 9/1593\nFW f/ox\nRD = 6 cm\nGrießbewurf\nÜz a + i",
+    "fields": {
+      "excavation": {
+        "provenance": "Carn.",
+        "project": "EVN GB 2017",
+        "fn": "220",
+        "se": "142",
+        "fl": "1",
+        "quadrant": null,
+        "kiste": null
+      },
+      "pottery_form": "Becher",
+      "artifact_category": "FW f/ox",
+      "publication_type": "Petznek 1999 Taf. 9/1593",
+      "surface_treatment": "Grießbewurf Üz a + i",
+      "measurement": {
+        "rd": "6",
+        "bd": null,
+        "h": null,
+        "r_a": null,
+        "r_i": null,
+        "r_m": null
+      },
+      "others": []
+    }
+  },
+  {
+    "text": "Carn. Limesgasse 2016\nFN 39, SE 39 - 36 - 09\nSchüssel Gassner 3/14\nf/ox GK\nRD = 19 cm\nÜz",
+    "fields": {
+      "excavation": {
+        "provenance": "Carn.",
+        "project": "Limesgasse 2016",
+        "fn": "39",
+        "se": "39 - 36 - 09",
+        "fl": null,
+        "quadrant": null,
+        "kiste": null
+      },
+      "pottery_form": "Schüssel",
+      "artifact_category": "f/ox GK",
+      "publication_type": "Gassner 3/14",
+      "surface_treatment": "Üz",
+      "measurement": {
+        "rd": "19",
+        "bd": null,
+        "h": null,
+        "r_a": null,
+        "r_i": null,
+        "r_m": null
+      },
+      "others": []
+    }
+  }
+]

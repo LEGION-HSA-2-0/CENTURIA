@@ -1,0 +1,60 @@
+Transcribe the handwritten text in this image exactly as it appears.
+This is an archaeological pottery label from Carnuntum (Roman site in Austria).
+Use the following vocabulary to resolve ambiguous handwriting.
+Output the text exactly as written. Do not add explanations or structure.
+
+Provenance: 
+- Carn.
+- Car. 
+- CAR 
+- Carnuntum
+
+Excavation Identifiers:
+- Crate number: Ki X/76
+- Find number: FN X
+- Stratigraphic Unit: SE X
+- Area: FL X
+- Survey quadrant: Q XX-YY
+- Alphanumeric find number: A-Z X/Y
+- Project names: GS, EVN, Survey, Limesgasse
+
+Vessel forms:
+Topf, Krug, Kanne, Becher, Faltenbecher, Vorratsgefäß, Nachttopf, Schüssel, Schale, 
+Teller, Reibschüssel, Mortarium, Dreifußschale, Räucherschale, Kragenschale, Deckel, 
+Sieb, Amphore, Knickwandschüssel
+
+Ware types:
+- f/ox GK, g/red GK, f/red GK, g/ox GK, GK Mischbrand
+- f/ox GG, f/red GG, g/red GG
+- f/ox following
+- f/red PGW, g/red PGW, f/ox PGW
+- f/ox Glasierte GK, Eingegl. Ker. Horreum Ker.
+- GK red., GK ox, GK oxid., red. GK, oxid. GK
+
+Measurements (numeric value + cm, optional %):
+RD, BD, H, R, R_A, R_i, R_m
+
+Surface treatment:
+Üz, Üz a, Üz i, Üz a + i, roter Üz, weißer Üz, Grießbewurf, Glasur, Glasspritzer, Ratterdekor
+
+Publication references (author + year/number/table):
+- common abbreviations: Taf., Abb., KE, Str., Sü, Su
+- Gassner
+- Petznek
+- Grünewald
+- Adler Wölfl
+- Horvat
+- Stuppner
+- Friesinger-Kerchler
+- Gattringer-Grünewald
+
+Other recurring tokens:
+- SPA
+- Fab A.
+- Fab B.
+- M 1:1
+- 1:1
+- Gez. MBC 
+- ik
+- iK 
+- Dates: DD.MM.YYYY

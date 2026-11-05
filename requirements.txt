@@ -1,0 +1,25 @@
+# Tested with Python 3.11, CUDA 12.6, NVIDIA RTX 3090
+
+# Data and evaluation
+pandas==3.0.2
+numpy==1.26.4 # cotescore requires numpy<2
+pillow==12.1.1
+jiwer==4.0.0 # CER/WER
+cotescore==0.2.0 # SpACER, 0.3.0 uses a different formula
+python-Levenshtein==0.27.3 # ANLS
+pylatexenc==2.10 # cleaning latex output
+
+# Models: transcription, LLM extraction, LoRA (GPU, CUDA 12.6)
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.11.0+cu126
+torchvision==0.26.0+cu126
+transformers==5.7.0
+tokenizers==0.22.2
+safetensors==0.7.0
+accelerate==1.13.0
+peft==0.19.1
+qwen-vl-utils==0.0.14 # olmocr 
+easyocr==1.7.2 # TrOCR line detection
+
+# flash-attn (olmOCR v1/2) has to be installed separately:
+#   pip install flash-attn==2.8.3 --no-build-isolation
