@@ -1,7 +1,8 @@
 # 🏺CENTURIA
 A benchmark for handwritten text recognition and structured field extraction from archaeological pottery records.
 
-This repository contains the evaluation pipeline for the CENTURIA dataset. The dataset and fine-tuned checkpoints for transcribing and extracting structured metadata from the Carnuntum pottery archive are hosted on Zenodo.
+This repository contains the evaluation pipeline for the CENTURIA dataset. 
+The required dataset and fine-tuned checkpoints for transcribing and extracting structured metadata from the Carnuntum pottery archive are hosted on Zenodo.
 It is part of the [LEGION project](https://legion-hsa-2-0.github.io/).
 
 The preprint is available on [arxiv](https://doi.org/10.48550/arXiv.2608.30616).
@@ -32,7 +33,7 @@ Our results show that a small expert-validated fine-tuning set suffices to conve
 CENTURIA contains 507 scanned pottery records (57 train/450 test), each annotated with a full transcription, bounding boxes, position of the technical drawing, and structured metadata fields. 
 Transcriptions and field values are in German and follow the original notation on the records.
 
-The dataset is available on [Zenodo](https://zenodo.org/records/24140993). A description of the annotation format is provided in the Zenodo record.
+The dataset is available on [Zenodo](https://doi.org/10.5281/zenodo.24145080). A description of the annotation format is provided there.
 
 After downloading, place the images and annotations in `data/CENTURIA_DATASET/`:
 ```
@@ -48,8 +49,8 @@ data/
 | TrOCR | 558M | [microsoft/trocr-large-handwritten](https://huggingface.co/microsoft/trocr-large-handwritten) | - |
 | Florence2 | 770M | [florence-community/Florence-2-large](https://huggingface.co/florence-community/Florence-2-large) | - |
 | olmOCR | 7B | [allenai/olmOCR-7B-0225-preview](https://huggingface.co/allenai/olmOCR-7B-0225-preview) | - |
-| olmOCR2 | 7B | [allenai/olmOCR-2-7B-1025](https://huggingface.co/allenai/olmOCR-2-7B-1025) | link |
-| LightOnOCR | 1B | [lightonai/LightOnOCR-2-1B](https://huggingface.co/lightonai/LightOnOCR-2-1B) | link |
+| olmOCR2 | 7B | [allenai/olmOCR-2-7B-1025](https://huggingface.co/allenai/olmOCR-2-7B-1025) | [olmocr2_ep2](https://doi.org/10.5281/zenodo.24145610) |
+| LightOnOCR | 1B | [lightonai/LightOnOCR-2-1B](https://huggingface.co/lightonai/LightOnOCR-2-1B) | [lightonocr_ep2](https://doi.org/10.5281/zenodo.24145610) |
 
 Models without a fine-tuned checkpoint are evaluated zero-shot. Fine-tuning uses LoRA (57 samples, 2 epochs).
 ## 🎛️ Domain adaptation
@@ -85,7 +86,7 @@ pip install flash-attn==2.8.3 --no-build-isolation   # needed for olmOCR and olm
 
 **2. Download the dataset**
 
-Download the dataset from [Zenodo](https://zenodo.org/records/24140993) and place it in `data/CENTURIA_DATASET/`.
+Download the dataset from [Zenodo](https://doi.org/10.5281/zenodo.24145080) and place it in `data/CENTURIA_DATASET/`.
 
 **3. Fine-tune a model (optional)**
 
